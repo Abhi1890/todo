@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="javascipt.js"></script>
+    <h1>Let's Do With ToDo </h1>
+    <div id="add"> <input type="text" name="" id="work" placeholder="write here to add">
+        <button class="ad" onclick="addtotaskinput()">add to task</button>
+        <button class="ad" onclick="addtoprogressin()">add to progress</button>
+        <button class="ad" onclick="addtocompletein()">add to completed</button>
+    </div>
+    <div id="delete"><input type="text" name="" id="workd" placeholder="write here to delete">
+        <button id="deletet" onclick="deletefromtaskinput()">delete from task</button>
+        <button id="deletep" onclick="deletefromprogressin()">delete from progress</button>
+        <button id="deletec" onclick="deletefromcompletein()">delete from completed</button>
+    </div>
+<h1 id="h">Your Work Progress...</h1>
+    <div class="container">
+        <div id="task">
+            <h1>TASK</h1>
+
+            <ol type="1" id="tasklist"></ol>
+
+        </div>
+        <div id="progres">
+            <h1>PROGRESS</h1>
+            <ol id="progress"></ol>
+        </div>
+        <div id="completed">
+            <h1>COMPLETED</h1>
+            <ol id="completelist"></ol>
+        </div>
+    </div>
+
+</body>
+
+</html>
